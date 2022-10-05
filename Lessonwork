@@ -1,0 +1,196 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    
+    /*
+    
+    int number1(0);
+    int number2(0);
+    int number3(0);
+    int number4(0);
+    int number5(0);
+    float number6(0);
+    
+    cout << "For USD - 1" << endl;
+    cout << "For EURO - 2" << endl;
+    cout << "For GBP - 3" << endl;
+    
+    cout << "Enter currency code you want to change: ";
+    cin >> number1;
+    if (number1 > 3) {
+        cout << "Error" << endl;
+        exit(0);
+    }
+    
+    number3 = 11000;
+    number4 = 10500;
+    number5 = 12000;
+    
+    
+    switch (number1){
+        case 1:
+            cout << "USD - " << (number3) << " so'm"<< endl;
+            break;
+        case 2:
+            cout << "EURO - " << (number4) << " so'm" << endl;
+            break;
+        case 3:
+            cout << "GBP - " << (number5) << " so'm" <<endl;
+            break;
+            
+        default:
+            cout << "nothing" << endl;
+            break;
+    }
+   
+            cout << "Do you want to change: ";
+            cin >> number2;
+    
+    switch (number2) {
+        case 0:
+            break;
+        case 1:
+            break;
+            
+        default:
+            break;
+    }
+   
+    
+    if (number2 == 0) {
+        cout << "Program stopped" << endl;
+        
+    }
+    
+    
+    
+    if (number2 == 1) {
+        cout << "Enter amount of money: ";
+        cin >> number6;
+    }
+    
+    if (number1 == 1) {
+        cout << "Money is: " << number3 * number6 << endl;
+    }
+    
+    if (number1 == 2) {
+        cout << "Money is: " << number4 * number6 << endl;
+    }
+        
+    if (number1 == 3) {
+        cout << "Money is: " << number5 * number6 << endl;
+    }
+    
+    */
+    
+    /*
+    
+    int number;
+    
+    cout << "Enter number: ";
+    cin >> number;
+    
+    if (number >= 0) {
+        cout << "Postive" << endl;
+    }
+    
+    else if (number < 0) {
+        cout << "Negative" << endl;
+    }
+    
+    */
+    
+    /*
+    
+    int number, number1;
+    
+    cout << "Enter number: ";
+    cin >> number;
+    
+    number1 = number % 2;
+    
+    if (number1 == 0) {
+        cout << "Nmber is even" << endl;
+    }
+    
+    else if (number1 == 1) {
+        cout << "Number is odd" << endl;
+    }
+    
+    if (number >= 0) {
+        cout << "Postive" << endl;
+    }
+    
+    else if (number < 0) {
+        cout << "Negative" << endl;
+    }
+     
+    */
+    
+    /*
+    
+    int birinchi, ikkinchi, uchinchi, number3;
+    
+    cout << "Enter numbers: ";
+    cin >> birinchi >> ikkinchi >> uchinchi;
+    
+    if (birinchi > ikkinchi and birinchi > uchinchi) {
+        cout << birinchi << " is the biggest";
+    }
+    
+    else if (ikkinchi > birinchi and ikkinchi > uchinchi) {
+        cout << ikkinchi << " is the biggest";
+    }
+    
+    else if (uchinchi > birinchi and uchinchi > ikkinchi) {
+        cout << uchinchi << " is the biggest";
+    }
+    
+    */
+    
+    /*
+    
+    int year, number, number1;
+    
+    cout << "Enter year: ";
+    cin >> year;
+    
+    number = year % 100;
+    number1 = year % 400;
+    
+    
+    if (number == 0 and number1 == 0) {
+        cout << year << " - this is a leap year" << endl;
+    }
+    
+    else if (number == 0 and number1 > 0) {
+        cout << year << " - this is not a leap year" << endl;
+    }
+    
+    */
+    
+    /*
+    
+    float a, b, c, x;
+    float w, q;
+
+    cout << "Enter numbers: ";
+    cin >> a >> b >> c;
+    
+    q = (b * b) - ( 4 * a * c);
+    w = sqrt(q);
+    
+    cout << a << "x^2" << " + " << b << "x" << " + " << c << " = 0" << endl;
+    
+    cout << "x1 = " << (-b + w) / (2 * a) << endl;
+    cout << "x2 = " << (-b - w) / (2 * a) << endl;
+    
+    */
+    
+    cin.get();
+  
+    return 0;
+}
